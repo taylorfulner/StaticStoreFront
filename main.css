@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
+header {
+    margin: 0;
+    background-color: white;
+    padding: 0px;
+}
+
+#navigation {
+    list-style: none;
+    margin-top: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(233, 58, 58);
+}
+
+.nav {
+    font-size: 1.0em;
+    padding: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline;
+}
+
+#logo-main {
+    height: 90px;
+}
+
+@media only screen and (max-width: 800px)
+{
+    #navigation {
+        list-style: none;
+        margin-top: 0px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: white;
+    }
+    
+    nav {
+        text-align: center;
+    }
+    
+    nav li a {
+        text-decoration: none;
+        color: rgb(233, 58, 58);
+    }
+    
+    .nav {
+        font-size: .8em;
+        padding: 10px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    #logo-main {
+        height: 60px;
+    }
+}
+
+
+/* burger of the day */
+
+#special-section {
+    background-color: rgb(120, 123, 133);
+    padding-top: 10px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+#flex-special {
+    display: flex;
+    text-align: center;
+    flex-flow: row;
+}
+
+#flex-special img {
+    border: 0px none black;
+    border-radius: 50%;
+    width: 70%;
+    margin-top: -13px;
+}
+
+.days {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: 'Caveat', sans-serif;
+}
+
+.day {
+    margin: -20px 0 0 0px;
+}
+
+#special-section h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#special-section h2 img {
+    height: 80px;
+    width: 200px;
+}
+
+.daily-name {
+    padding: 0 20px 0 20px ;
+    color: white;
+    font-size: .9em;
+}
+
+
+@media only screen and (max-width: 800px)
+{
+    #flex-special {
+        display: flex;
+        text-align: center;
+        flex-flow: column;
+    }
+
+    #flex-special img {
+        border: 0px none black;
+        border-radius: 50%;
+        width: 20%;
+        margin-top: -13px;
+    }
+
+    #special-section h2 img {
+        height: 70px;
+        width: 130px;
+    }
+}
+
+/* menu */
+
+h2 {
+    text-align: center;
+}
+
+#order-button {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.menu img {
+    width: 80%;
+    margin: 10px;
+    border: 0px black solid;
+    border-radius: 5px;
+}
+
+#flex-menu {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.menu {
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 5px;
+    align-content: center;
+}
+
+button {
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(120, 123, 133);
+}
+
+#menu-section p {
+    margin: 0 0 5px 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.dollars {
+    padding-bottom: 15px;
+}
+
+
+/* footer */
+footer {
+    font-size: 1.0em;
+    text-align: center;
+    background-color: rgb(233, 58, 58);
+    padding-bottom: 1px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    padding: 5px 30px 0px 30px;
+    margin: 0;
+}
+
+footer li a {
+    text-decoration: none;
+    color: black;
+}
